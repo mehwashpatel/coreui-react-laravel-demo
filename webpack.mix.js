@@ -35,4 +35,5 @@ mix.webpackConfig({
 
 // used to run app using reactjs
 mix.js('resources/coreui/src/index.js', 'public/js/app.js').version();
-mix.copy('resources/coreui/public/assets', 'public/assets');
+mix.copy('resources/coreui/src/assets', 'public/assets');
+mix.copy('resources/coreui/public/avatars', 'public/avatars');
